@@ -33,5 +33,9 @@ return {
       end
     })
 
+    require("lspconfig").ast_grep.setup({})
+    require("lspconfig").html.setup({})
+    require("lspconfig").ts_ls.setup({})
+
   end
 }
